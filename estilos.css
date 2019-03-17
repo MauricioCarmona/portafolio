@@ -70,6 +70,7 @@ h1 {
     font-size:30px;
     margin-bottom: auto;
     line-height: 1.1em;
+    font-weight: 100;
 }
 
 .nametitle {
@@ -388,7 +389,7 @@ figure {
     }
     
     .hero {
-        height: auto;
+        height: 400px;
         position: relative;
         overflow: hidden;
         padding: 2em;
@@ -411,6 +412,8 @@ figure {
     .subhero {
         font-size: 40px;
         margin-bottom: auto;
+        text-shadow: 3px 3px 2px #000;
+        margin-top: 70px;
     }
     
     h1 {
@@ -549,6 +552,10 @@ figure {
         padding-left: 60px;
     }
     
+    .event img {
+    height: 180px;
+}
+    
     .logo {
         text-align: initial;
         height: 85px;
@@ -569,5 +576,16 @@ figure {
     
     .nametitle {
         padding-left: 0;
+    }
+    
+    @media screen and (max-width:408px){
+     
+        .subhero {
+            font-size: 29px;
+        }
+        
+        .hero {
+            padding: 1em 1em 2em 1em;
+        }
     }
 }
