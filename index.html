@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Mauricio Carmona ⚜️</title>
+    <link rel="icon" type="image/png" href="images/MCWhite.png"/>
+    <link href="https://fonts.googleapis.com/css?family=Hind+Guntur|Palanquin:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="./estilos.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+  <i class="icon-menu burger-button" id="burger-menu"></i>
+   <header class="header">
+     <div class="container2">
+         <figure class="logo">
+         <img src="images/MC%20logo%20largo%202_00000.png" alt="Logo Mauricio Carmona"></figure>
+       <nav class="menu">
+           <ol>
+               <li><a class="link" href="#portafolio">Portafolio</a></li>
+               <li><a class="link" href="#eventos">Experiencia</a></li>
+               <li><a class="link" href="#contacto">Trabajemos juntos</a></li>
+           </ol>
+       </nav>
+     </div>   
+   </header>
+   <section class="hero">
+      <div class="container">
+        <div class="nametitle">
+            <h1 class="mainhero">¡Hola!</h1> <br> <h1 class="subhero">Soy Mauricio Carmona, estudiante de Negocios Internacionales y apasionado por la tecnología.</h1>
+        </div>
+       <img class="hero-image" src="images/FotoHero.JPG" width="500px" height="400px" alt="Mauricio Carmona"> 
+      </div>
+   </section> 
+   
+   
+   <div class="container3">
+       <h2 id="portafolio" class="subtituloExp">Mi trabajo</h2>
+   </div> 
+   <section class="event-list">
+      <div class="container">
+          <article class="event">
+           <figure class="event-imageContainer">
+           <img class="event-image" src="images/MCProx.png" width="500" alt="">
+           </figure>
+           <div class="event-detail">
+               <h3 class="event-title">Quiz MX</h3>
+           <p class="event-description">Averigua qué tanto sabes sobre México en este Quiz</p>
+           <a class="event-url" href="">Próximamente</a>
+           </div>
+       </article>
+       <article class="event">
+           <figure class="event-imageContainer">
+           <a href="https://mauriciocarmona.github.io/calculo-prestaciones/">
+               <img class="event-image" src="images/MinPrestaciones.png" width="500" alt="">
+           </a>
+           </figure>
+           <div class="event-detail">
+               <h3 class="event-title">Calculadora de prestaciones</h3>
+           <p class="event-description">Introduce los datos de un trabajador y obtén las prestaciones que recibiría según la Ley Federal del Trabajo</p>
+           <a class="event-url" href="https://mauriciocarmona.github.io/calculo-prestaciones/">Ver proyecto</a>
+           </div>
+       </article>
+       <article class="event">
+           <figure class="event-imageContainer">
+           <img class="event-image" src="images/MCProx.png" width="500" alt="">
+           </figure>
+           <div class="event-detail">
+               <h3 class="event-title">Consultoría IGNITE</h3>
+           <p class="event-description">Sitio web para la compañía de consultoría ficticia IGNITE</p>
+           <a class="event-url" href="">Próximamente</a>
+           </div>
+       </article>
+       <article class="event">
+           <figure class="event-imageContainer">
+           <img class="event-image" src="images/MCProx.png" width="500" alt="">
+           </figure>
+           <div class="event-detail">
+               <h3 class="event-title">Sorpresa</h3>
+           <p class="event-description">...</p>
+           <a class="event-url" href="">Próximamente</a>
+           </div>
+       </article>
+      </div>
+   </section>
+   
+   <section id="eventos" class="portfolio">
+     <div class="container">
+         <h2 class="subtitulo">Más sobre mi experiencia</h2>
+       <article class="project">
+          <div class="project-details">
+          <h3 class="project-title">CAMBIOS</h3>
+           <h6 class="project-type">Video</h6>
+           <p class="project-date"><small><strong>Fecha</strong>: 08/05/2016</small></p>
+           <p class="project-url"><small><strong>Puedes verlo en</strong>: <a href="https://youtu.be/Lm7AtailhaE">https://youtu.be/Lm7AtailhaE</a></small></p>
+           <p class="project-description">Proyecto audiovisual a manera de reflexión sobre nuestra manera de ver y afrontar los cambios en nuestra vida.</p>      
+          </div>
+           <figure class="project-imageContainer">
+               <div class="flexible-video">
+       <iframe class="youtube-video" width="560" height="315" src="https://www.youtube.com/embed/Lm7AtailhaE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+   </div>
+           </figure>
+       </article>
+     </div>
+   </section>
+   
+   <section id="contacto" class="contact">
+      <div class="footerContainer">
+          <form action="/suscripcion/" class="form-email">
+       <h3>¿Creamos algo juntos?</h3>
+       <input type="text" placeholder="Déjame tu email">
+       <button>Enviar</button>
+       </form>
+       <div class="social">
+       <a href="https://twitter.com/maumcarmona" class="social-link twitter"></a>
+       <a href="https://www.facebook.com/mauriciocarmona.mx" class="social-link facebook"></a>
+       <a href="https://github.com/mauriciocarmona" class="social-link github"></a>
+       <a href="https://www.instagram.com/mauriciomcarmona/" class="social-link instagram"></a>
+       </div>
+      </div>
+   </section>  
+   <footer class="footer">
+   <div class="container">
+        <p>© Mauricio Carmona 2019 </p>
+        <img src="images/MCWhite.png" alt="Logo MC">
+        <p>mauriciocarmona.git.io</p>
+   </div>
+    </footer>
+    <script>
+        const ipad = window.matchMedia('screen and (max-width: 807px)');
+        const menu = document.querySelector('.menu');
+        const burgerbutton = document.querySelector('#burger-menu');
+
+        ipad.addListener(validation);
+        
+        function validation(event) {
+            
+            if (event.matches) { 
+                
+               console.log('true'); burgerbutton.addEventListener('click', hideShow);
+            } else { 
+                
+               console.log('false'); burgerbutton.removeEventListener('click', hideShow);
+            }
+        }
+        
+        validation(ipad);
+        
+        function hideShow() {
+            if (menu.classList.contains('is-active')){
+                menu.classList.remove('is-active'); 
+            } else {
+                menu.classList.add('is-active'); 
+            }
+         
+        }
+    </script>
+</body>
+</html>
