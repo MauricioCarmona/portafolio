@@ -46,6 +46,8 @@ h1 {
     letter-spacing: -0.5px;
     margin: 0;
     margin-bottom: 60px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
 }
 
 .youtube-video {
@@ -315,6 +317,8 @@ figure {
 .form-email h3 {
     font-size: 45px;
     margin: 0;
+    line-height: 1.1;
+    margin-bottom: 40px;
 }
 
 .container {
@@ -412,7 +416,7 @@ figure {
     .subhero {
         font-size: 40px;
         margin-bottom: auto;
-        text-shadow: 3px 3px 2px #000;
+        text-shadow: 2px 2px 8px #000000;
         margin-top: 70px;
     }
     
@@ -478,27 +482,28 @@ figure {
     }
     
     .project-title {
-        font-size: 1.5em;
+        font-size: 25px;
     }
     
     .project-url {
-        font-size: 1em;
+        font-size: 18px;
     }
     
     .project-type {
-        font-size: 1em;
+        font-size: 20px;
     }
     
     .project-date {
-        font-size: 1em;
+        font-size: 19px;
     }
     
     .project-description {
-        font-size: 1em;
+        font-size: 20px;
     }
     
     .hero {
         flex-wrap: wrap;
+        height: auto;
     }
     
     .event {
@@ -539,8 +544,16 @@ figure {
         padding: 1em;
     }
     
+    .hero {
+        height: 450px;
+    }
+    
     .logo {
         
+    }
+    
+       .nametitle {
+        padding-left: 0;
     }
 }
 
@@ -566,7 +579,7 @@ figure {
     }
 
     .subhero {
-        font-size: 35px;
+        font-size: 37px;
         text-align: center;
     }
     
@@ -581,11 +594,35 @@ figure {
     @media screen and (max-width:408px){
      
         .subhero {
-            font-size: 29px;
+            font-size: 35px;
         }
         
         .hero {
             padding: 1em 1em 2em 1em;
+        }
+        
+        .project-title {
+            line-height: 1.2;
+        }
+        
+        .project-description {
+            line-height: 1.3;
+            font-size: 20px;
+        }
+        
+        .project-url {
+        font-size: 19px;
+            line-height: 1.2;
+    }
+    }
+    
+    @media screen and (max-width:330px){
+        .subhero {
+            font-size: 30px;
+        }
+        
+        .hero {
+            padding: 1em 0em 2em 1em;
         }
     }
 }
