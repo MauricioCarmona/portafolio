@@ -50,6 +50,13 @@ h1 {
     font-weight: 900;
 }
 
+.trabajemos:hover {
+    border: 1px solid deepskyblue;
+    border-radius: 5px;
+    color: deepskyblue;
+    transition: 0.5s;
+}
+
 .youtube-video {
     width: 100%;
     height: 100%;
