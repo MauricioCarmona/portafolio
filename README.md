@@ -1,2 +1,2 @@
 # portafolio
-Un espacio en el que recopilo parte del trabajo que he realizado.
+Proyecto del curso de desarrollo web de Platzi
